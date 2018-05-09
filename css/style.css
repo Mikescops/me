@@ -1,0 +1,168 @@
+html{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background-color: rgb(20, 22, 30);
+	background-repeat: repeat;
+	min-height: 100%;
+
+	color: #fff;
+}
+
+html, body, div, applet, h1, h2, h3, h4, h5, h6, blockquote, abbr, acronym, address, big, cite, del, dfn, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, center, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+    outline: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.grid{
+	max-width: 800px;
+	padding: 2em;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+/** HOME TITLE */
+
+.home-title{
+	position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.home-title h1{
+    font-size: 6em;
+    line-height: 1.1em;
+    font-weight: initial;
+}
+
+.home-title h3{
+	font-size: 18px;
+	font-weight: initial;
+}
+
+.site-title{
+	position: absolute;
+	font-size: 2.5em;
+	color: rgba(255,255,255,.4);
+
+	top: 0;
+	line-height: 3.2em;
+}
+
+.site-title:hover{
+	color: rgba(255,255,255,.8);
+	-webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+
+    text-decoration: none;
+}
+
+@media all and (max-width: 540px){
+	.site-title{
+		font-size: 1.1em;
+		top: 112px;
+	}
+}
+
+
+.site-title.prev-site{
+	left: 0;
+}
+
+.site-title.next-site{
+	right: 0;
+}
+
+/** REFERENCES */
+
+.references{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.references .tag{
+	cursor: pointer;
+	margin: 5px;
+	padding: 5px 8px;
+	border: 2px solid rgba(255,255,255,.8);
+	border-radius: 4px;
+
+	-webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.references .tag:hover{
+	border: 2px solid rgba(255,255,255,1);
+}
+
+/** PROJECTS */
+
+.projects{
+	margin: 40px 0;
+}
+
+.projects a{
+    color: #009FDA;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.projects .item{
+    color: rgba(255,255,255,.6);
+
+    cursor: pointer;
+    display: list-item;
+	list-style-type: none;
+	list-style-position: inside;
+	padding: .3em 0;
+	line-height: 1.2;
+
+    -webkit-transition: .2s color ease,.2s padding-left ease,.2s background-color ease;
+	transition: .2s color ease,.2s padding-left ease,.2s background-color ease;
+}
+
+.projects .item div{
+	float: right;
+}
+
+.item:hover{
+	padding-left: 1em;
+    background-color: rgba(255,255,255,.04);
+    color: rgba(255,255,255,.8);
+}
+
+/** ABOUT */
+
+.about{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin: 50px 0;
+}
+
+.about img{
+	margin-right: 15px;
+	border-radius: 50%;
+}
