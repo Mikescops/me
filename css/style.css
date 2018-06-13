@@ -114,20 +114,24 @@ a:hover{
 	border: 2px solid rgba(255,255,255,1);
 }
 
-/** PROJECTS */
+/** LISTS */
 
-.projects{
-	margin: 40px 0;
+.list-title{
+	font-size: 1.5em;
 }
 
-.projects a{
+.list-item{
+	margin: 10px 0;
+}
+
+.list-item a{
     color: #009FDA;
     text-decoration: none;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
 
-.projects .item{
+.list-item .item{
     color: rgba(255,255,255,.6);
 
     cursor: pointer;
@@ -141,7 +145,7 @@ a:hover{
 	transition: .2s color ease,.2s padding-left ease,.2s background-color ease;
 }
 
-.projects .item div{
+.list-item .item div{
 	float: right;
 }
 
