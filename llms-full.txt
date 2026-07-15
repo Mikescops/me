@@ -50,7 +50,10 @@ His expertise in software infrastructure, passkeys, and web design has been hone
 
 ## Education
 
-- Engineering Studies in CyberSecurity — INSA Centre Val de Loire (2014–2019)
+- Cybersecurity Engineering — STI (Sécurité et Technologies Informatiques) — INSA Centre Val de Loire (2014–2019)
+  - Major de promotion
+  - Specialty: Sécurité des Systèmes Ubiquitaires
+  - ANSSI SecNumEdu-labelled cybersecurity programme: system, network, and Windows security, cryptography, data protection, and security-oriented projects
 - Erasmus Semester in Information Systems Security — Tallinna Tehnikaülikool (2017)
 - Bachelor's degree (Mention Très bien / Mention Européenne) — Albert Londres (2014)
 
