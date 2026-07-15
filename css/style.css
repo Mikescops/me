@@ -223,20 +223,47 @@ section {
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
+.list-item .item:has(.item-main) {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    column-gap: 0.65rem;
+    row-gap: 0.25rem;
+    align-items: center;
+}
+
 .item-main {
     display: flex;
     align-items: center;
     gap: 0.65rem;
     min-width: 0;
-    flex: 1 1 12rem;
+}
+
+.list-item .item:has(.item-main) .item-main {
+    display: contents;
+}
+
+.list-item .item:has(.item-main) .company-icon {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.list-item .item:has(.item-main) .item-main > :not(.company-icon) {
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+}
+
+.list-item .item:has(.item-main) .item-date {
+    grid-column: 3;
+    grid-row: 1;
 }
 
 .company-icon {
     flex-shrink: 0;
     box-sizing: border-box;
-    width: 28px;
-    height: 28px;
-    padding: 4px;
+    width: 24px;
+    height: 24px;
+    padding: 3px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.14);
@@ -331,11 +358,28 @@ section {
         font-size: 0.9375rem;
     }
 
-    .list-item .item {
+    .list-item .item:not(:has(.item-main)) {
         flex-direction: column;
         align-items: flex-start;
         gap: 0.25rem;
         padding: 0.75rem 0.5rem;
+    }
+
+    .list-item .item:has(.item-main) {
+        grid-template-columns: auto minmax(0, 1fr);
+        align-items: start;
+        padding: 0.75rem 0.5rem;
+    }
+
+    .list-item .item:has(.item-main) .company-icon {
+        grid-row: 1 / 3;
+        align-self: start;
+        margin-top: 0.1em;
+    }
+
+    .list-item .item:has(.item-main) .item-date {
+        grid-column: 2;
+        grid-row: 2;
     }
 
     .list-item .item-date,
