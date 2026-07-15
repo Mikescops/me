@@ -1,0 +1,29 @@
+# Corentin Mors
+
+> Co-founder and CTO of Subnoto, building confidential e-signature for enterprises using cloud trusted execution environments. Over seven years of experience in software development, passkeys, secure authentication, and confidential computing. Former Senior Software Engineer at Dashlane.
+
+## About
+
+- [Profile](https://me.pixelswap.fr/): Professional profile — experience, talks, publications, and background
+- [Full profile (plain text)](https://me.pixelswap.fr/llms-full.txt): Complete structured summary for AI systems
+
+## Work
+
+- [Subnoto](https://subnoto.com): Confidential e-signature platform (Co-founder & CTO, since January 2025)
+- [Dashlane](https://www.dashlane.com/): Senior Software Engineer (2022–2024), patents on cloud secure enclaves and zero-knowledge IAM
+
+## Writing & Projects
+
+- [Dev blog](https://dev.pixelswap.fr/): Technical writing and development projects
+- [Blog](https://pixelswap.fr/): Personal blog
+
+## Contact
+
+- Email: medias@pixelswap.fr
+- LinkedIn: https://www.linkedin.com/in/corentinmors/
+- Bluesky: https://bsky.app/profile/corentin.mors.dev
+- Location: France
+
+## Expertise
+
+Enterprise security, confidential computing, passkeys, secure authentication, e-signature, trusted execution environments, software infrastructure, DevOps, cybersecurity, web development

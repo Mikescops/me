@@ -1,0 +1,66 @@
+# Corentin Mors — Full Profile
+
+URL: https://me.pixelswap.fr/
+Email: medias@pixelswap.fr
+LinkedIn: https://www.linkedin.com/in/corentinmors/
+Bluesky: https://bsky.app/profile/corentin.mors.dev
+Location: France
+
+## Summary
+
+As Co-founder and CTO of Subnoto, Corentin Mors is focused on developing innovative enterprise security solutions. Drawing on over seven years of experience in software development and security, he leads efforts to provide businesses with a cutting-edge confidential e-signature platform. The platform leverages trusted execution environments in the cloud to ensure robust data protection and privacy for clients.
+
+His expertise in software infrastructure, passkeys, and web design has been honed through years of working on security-oriented projects, including building confidential computing frameworks and ensuring secure authentication systems. At Subnoto, he remains committed to addressing the critical need for digital security and creating solutions that empower businesses in an increasingly complex cybersecurity landscape.
+
+## Current Role
+
+- Subnoto — Co-founder & CTO (January 2025 – present)
+  - Confidential e-signature platform for enterprises
+  - Cloud trusted execution environments (TEEs)
+  - Website: https://subnoto.com
+
+## Experience
+
+- Dashlane — Senior Software Engineer (February 2022 – December 2024)
+- Dashlane — Intermediate Software Engineer (September 2020 – January 2022)
+- Dashlane — Junior Software Engineer (September 2019 – August 2020)
+- Dashlane — Intern Software Engineer (February 2019 – August 2019)
+- ON-X — Intern CyberSecurity Consultant (April 2018 – August 2018)
+- Promus — Intern PHP Symfony Developer (August 2017, 1 month)
+- Ikoula — Intern Webmaster & Marketing Analyst (August 2016, 1 month)
+- Two Kings — Intern Web Developer (August 2015, 1 month)
+
+## Talks
+
+- SSTIC 2026 — Rump on most secure user sessions (4 June 2026)
+- SSTIC 2024 — Rump on Passkeys in 3 minutes (6 June 2024)
+- Epitech 2024 — A look at Cloud Secure Enclaves in the real-world (31 January 2024)
+- HashiTalks 2021 — Using HashiCorp Products at Home (17 February 2021)
+
+## Publications
+
+- Patent — Authentication with Cloud-Based Secure Enclave (January 2024, Dashlane SAS, Application)
+- Patent — Integration of identity access management infrastructure with zero-knowledge services (March 2023, Dashlane SAS, Granted)
+
+## Side Jobs
+
+- Teacher in Computer Science (Master degree) — INSA Centre Val de Loire (2022–2023)
+- Geek Mexicain — President (October 2013 – November 2018)
+- Iris INSA — Product Developer (April 2016 – October 2018)
+
+## Education
+
+- Engineering Studies in CyberSecurity — INSA Centre Val de Loire (2014–2019)
+- Erasmus Semester in Information Systems Security — Tallinna Tehnikaülikool (2017)
+- Bachelor's degree (Mention Très bien / Mention Européenne) — Albert Londres (2014)
+
+## Skills & Topics
+
+Web Development, DevOps, Team Leading, Infrastructure, CyberSecurity, Passkeys, Confidential Computing, Enterprise Security, Secure Authentication, E-signature, Trusted Execution Environments
+
+## Related Sites
+
+- Profile: https://me.pixelswap.fr/
+- Dev blog: https://dev.pixelswap.fr/
+- Blog: https://pixelswap.fr/
+- Subnoto: https://subnoto.com

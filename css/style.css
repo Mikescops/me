@@ -80,14 +80,32 @@ a:hover {
 }
 
 .home-title h1 {
-    font-size: 6em;
-    line-height: 1.1em;
     font-weight: initial;
 }
 
-.home-title h3 {
+.home-heading-brand {
+    display: block;
+    font-size: 6em;
+    line-height: 1.1em;
+}
+
+.home-heading-name {
+    display: block;
+    font-size: 18px;
+}
+
+.home-subtitle {
     font-size: 18px;
     font-weight: initial;
+}
+
+.home-subtitle a {
+    color: #009fda;
+    text-decoration: none;
+}
+
+.home-subtitle a:hover {
+    text-decoration: underline;
 }
 
 .site-title {
@@ -149,8 +167,19 @@ a:hover {
 
 /** LISTS */
 
+section {
+    margin-bottom: 24px;
+}
+
+.bio p {
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 1em;
+}
+
 .list-title {
     font-size: 1.5em;
+    margin-bottom: 8px;
 }
 
 .list-item {
@@ -202,4 +231,32 @@ a:hover {
 .about img {
     margin-right: 15px;
     border-radius: 50%;
+}
+
+.about-name {
+    font-size: 1em;
+    font-weight: initial;
+    margin-bottom: 0.25em;
+}
+
+.about address {
+    font-style: normal;
+}
+
+.about address a {
+    color: #009fda;
+    text-decoration: none;
+}
+
+.about address a:hover {
+    text-decoration: underline;
+}
+
+.about address p {
+    margin: 0.2em 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.about-social {
+    color: rgba(255, 255, 255, 0.6);
 }
