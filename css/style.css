@@ -5,7 +5,8 @@ html {
 
 body {
     background-color: #1d2125;
-    background-repeat: repeat;
+    background-image: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(144, 86, 216, 0.14), transparent);
+    background-repeat: no-repeat;
     min-height: 100%;
     color: #fff;
     font-size: 16px;
@@ -66,7 +67,7 @@ a:hover {
 }
 
 a:focus-visible {
-    outline: 2px solid #009fda;
+    outline: 2px solid #3aa0ff;
     outline-offset: 2px;
 }
 
@@ -110,7 +111,7 @@ a:focus-visible {
 }
 
 .home-subtitle a {
-    color: #009fda;
+    color: #3aa0ff;
     text-decoration: none;
 }
 
@@ -118,26 +119,44 @@ a:focus-visible {
     text-decoration: underline;
 }
 
-.site-nav {
+.home-links {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin-top: 1.5rem;
-    padding-top: 1rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    gap: 0.35rem 0.85rem;
+    margin-top: 1.35rem;
 }
 
-.site-link {
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.45);
-    padding: 0.35rem 0;
+.home-links__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.15rem;
+    font-size: 0.875rem;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.58);
+    text-decoration: none;
     transition: color 0.2s ease;
 }
 
-.site-link:hover {
-    color: rgba(255, 255, 255, 0.85);
+.home-links__item:hover {
+    color: #3aa0ff;
     text-decoration: none;
+}
+
+.home-links__divider {
+    display: none;
+    width: 1px;
+    height: 1rem;
+    margin: 0 0.15rem;
+    background: rgba(255, 255, 255, 0.16);
+}
+
+@media only screen and (min-width: 33.75em) {
+    .home-links__divider {
+        display: block;
+    }
 }
 
 /** REFERENCES */
@@ -189,7 +208,7 @@ section {
 }
 
 .bio a {
-    color: #009fda;
+    color: #3aa0ff;
     text-decoration: none;
 }
 
@@ -204,7 +223,7 @@ section {
 }
 
 .list-item a {
-    color: #009fda;
+    color: #3aa0ff;
     text-decoration: none;
     overflow-wrap: anywhere;
 }
@@ -314,7 +333,7 @@ section {
 }
 
 .about address a {
-    color: #009fda;
+    color: #3aa0ff;
     text-decoration: none;
 }
 
